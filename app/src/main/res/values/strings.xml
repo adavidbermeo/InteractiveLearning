@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">InteractiveLearning</string>
-</resources>
+    <string name="txt">Ok</string>
+    </resources>
