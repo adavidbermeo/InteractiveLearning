@@ -2,6 +2,18 @@
     <string name="app_name">InteractiveLearning</string>
     <string name="etNombre1">Nombre</string>
     <string name="etNombre2">Nombre</string>
-    <string name="BotonEnviar">Enviar</string>
     <string name="BotonRegresar">Regresar</string>
+    <string name="app_title">InteractiveLearning</string>
+    <string name="app_description">Aprende Ingles online. Registrate para continuar</string>
+    <string name="Btn_registro">Registrarse</string>
+    <string name="Btn_isesion">Iniciar Sesión</string>
+    <string name="img_description">Imagen de la App</string>
+    <string name="form_title">Formulario de Registro</string>
+
+    // Hints User Register Form
+    <string name="people_name">Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="englih_level">English Level (A1,A2, B1, B2, C1,C2)</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
 </resources>
