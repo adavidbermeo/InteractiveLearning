@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">InteractiveLearning</string>
+    <string name="app_name">ILearning</string>
     <string name="etNombre1">Nombre</string>
     <string name="etNombre2">Nombre</string>
     <string name="BotonRegresar">Regresar</string>
