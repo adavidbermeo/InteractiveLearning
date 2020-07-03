@@ -14,10 +14,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Poner Icono en action bar
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
     }
 
     //Método para el botón enviar
-    public void createAccount(View view){
+    public void sendRegisterForm(View view){
         Intent i = new Intent(this, Main2Activity.class);
         //i.putExtra("dato", et1.getText().toString());
         startActivity(i);

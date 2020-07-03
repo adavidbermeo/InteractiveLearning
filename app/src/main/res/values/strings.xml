@@ -16,4 +16,7 @@
     <string name="password">Password</string>
     <string name="englih_level">English Level (A1,A2, B1, B2, C1,C2)</string>
     <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="result">Resultado</string>
+    <string name="return_to_class">Salir</string>
+    <string name="mss_welcome">Aprende Ingles Ahora!</string>
 </resources>
