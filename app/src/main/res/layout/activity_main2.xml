@@ -9,16 +9,15 @@
 
     <Button
         android:id="@+id/create_account"
-        android:layout_width="186dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="151dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="48dp"
         android:background="#020202"
         android:onClick="createAccount"
         android:text="@string/crear_cuenta"
         android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_english_level" />
 
@@ -28,10 +27,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="36dp"
         android:text="@string/form_title"
         android:textColor="#FFC107"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

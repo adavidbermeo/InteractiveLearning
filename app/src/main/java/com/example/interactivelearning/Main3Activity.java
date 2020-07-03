@@ -16,6 +16,10 @@ public class Main3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
+        //Poner Icono en action bar
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
+
         tv1 = (TextView)findViewById(R.id.result_name);
         tv2 = (TextView)findViewById(R.id.result_username);
         tv3 = (TextView)findViewById(R.id.result_password);
@@ -33,7 +37,7 @@ public class Main3Activity extends AppCompatActivity {
         tv1.setText("Name: " + results[0]);
         tv2.setText("Username: " + results[1]);
         tv3.setText("Password: " + results[2]);
-        tv4.setText("English Level: pk" + results[3]);
+        tv4.setText("English Level: " + results[3]);
 
     }
     public void returnMainClass(View view){

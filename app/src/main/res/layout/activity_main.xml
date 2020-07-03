@@ -12,7 +12,7 @@
         android:layout_width="137dp"
         android:layout_height="50dp"
 
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="52dp"
         android:background="#000000"
         android:onClick="sendRegisterForm"
         android:text="@string/Btn_registro"
@@ -29,15 +29,15 @@
         android:layout_marginTop="48dp"
         android:text="@string/app_title"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="235dp"
-        android:layout_height="58dp"
+        android:layout_width="299dp"
+        android:layout_height="62dp"
         android:layout_marginTop="32dp"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
@@ -54,10 +54,12 @@
         android:layout_height="169dp"
         android:layout_marginTop="48dp"
         android:contentDescription="@string/img_description"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_registro"
+        app:layout_constraintVertical_bias="0.074"
         app:srcCompat="@drawable/ingles" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
